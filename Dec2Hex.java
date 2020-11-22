@@ -6,13 +6,18 @@ class Dec2Hex
  
     public static void main(String args[]) 
     { 
+if(args.length == 0)
+{
+System.err.println("You need to enter an integer to make this convert system work!");
+System.exit();
+}
         if (args.length > 0)  
         {             try  
             { 
                 Arg1 = Integer.parseInt(args[0]); 
             }  
             catch (NumberFormatException e)              {
-System.out.println("Test"); 
+
                 System.err.println("Argument" + args[0] + " must be an integer test."); 
                 System.exit(1); 
             } 
