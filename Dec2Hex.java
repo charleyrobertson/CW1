@@ -8,7 +8,7 @@ class Dec2Hex
     { 
 if(args.length == 0)
 {
-System.err.println("You need to enter an integer to make this convert system work!");
+System.err.println("Please enter a number for this program to work!");
 System.exit(0);
 }
         if (args.length > 0)  
