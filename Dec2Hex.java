@@ -11,7 +11,8 @@ class Dec2Hex
             { 
                 Arg1 = Integer.parseInt(args[0]); 
             }  
-            catch (NumberFormatException e)              { 
+            catch (NumberFormatException e)              {
+System.out.println("Test"); 
                 System.err.println("Argument" + args[0] + " must be an integer test."); 
                 System.exit(1); 
             } 
